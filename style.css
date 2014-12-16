@@ -1,0 +1,104 @@
+#content {
+	width: 1000px;
+	min-height: 1000px;
+	margin: auto;
+	padding:20px;
+	background-color: #CCCCFF;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px #000033;
+}
+
+header {
+    background-color: grey;
+    text-align:center;
+    width: 950px;
+    height: 200px;
+	display : block;
+}
+
+header h1 {
+    color:#291400;
+    font-family:verdana;
+}
+
+header h3 {
+    color:#694016;
+    font-family:verdana;
+}
+
+.div-top{
+	display : block;
+}
+
+nav {
+	background-color: #CCCCFF;
+	text-align: left;
+}
+
+.header-nav{
+    display: block;
+    width: 900px;
+	margin-left: 75px;
+}
+
+.nav-vertical{
+    display: inline-block;
+	width: 200px;
+	background-color: #CCCCFF;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+nav.header-nav li {
+	color: #fff;
+	background-color: #808080;
+	display: inline-block;
+	line-height: 20px;
+	border-radius: 5px;
+	line-width: 40px;
+	padding: 5px;
+}
+
+nav.nav-vertical li {
+	color: #fff;
+	background-color: #808080;
+	line-height: 20px;
+	border-radius: 5px;
+	line-width: 40px;
+	margin-bottom : 2px;
+	padding: 5px;
+}
+
+nav li:hover{
+    background-color: #ccff99;
+}
+
+nav a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+section {
+    background-color: #808080;
+    width: 750px;
+    min-height: 500px;
+    display: inline-block;
+}
+
+#img-photo{
+	float:left;
+	width : 120px;
+	height :150px;
+}
+
+#icon-facebook{
+	float : right;
+	width : 100px;
+	height: 35px;
+}
+
